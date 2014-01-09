@@ -9,9 +9,6 @@ parser.add_argument('--knn', help='Runs the knn classifier', action="store_true"
 parser.add_argument('--gaussian', help='Runs the gaussian classifier', action="store_true")
 args = parser.parse_args()
 
-KNN = True
-NB = False
-
 def load_iris_data() :
 	iris = datasets.load_iris()
 	return (iris.data, iris.target, iris.target_names)
