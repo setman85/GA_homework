@@ -34,8 +34,6 @@ X, y = organizeData(data)
 
 print "Data sorted into numpy arrays"
 
-stats(X,y)
-
 for (c_label, classifer) in classfiers_to_cv :
 
     print "---> %s <---" % c_label

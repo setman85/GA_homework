@@ -63,22 +63,19 @@ def stats(X, y):
         #range=(1,3),
         facecolor='red',
         stacked='false',
-        label='Class 1 (No-Use)',
-        alpha=.5)
+        label='Class 1 (No-Use)')
     plt.hist(features_two[:,0], 
         bins=num_bins,
         #range=(1,3),
         facecolor='blue',
         stacked='false',
-        label='Class 2 (Long-Term)',
-        alpha=.5)
+        label='Class 2 (Long-Term)')
     plt.hist(features_three[:,0], 
         bins=num_bins,
         #range=(1,3),
         facecolor='green',
         stacked='false',
-        label='Class 3 (Short-term)',
-        alpha=.5)
+        label='Class 3 (Short-term)')
     plt.xlabel('Age')
     plt.ylabel('Number of Women')
     plt.legend(loc="upper right")
