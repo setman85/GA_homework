@@ -26,7 +26,7 @@ else:
 	flag = 1
 data = load_titanic_data()
 
-print "Data loaded"
+print "Titanic Data loaded"
 
 X, y = organizeData(data)
 
